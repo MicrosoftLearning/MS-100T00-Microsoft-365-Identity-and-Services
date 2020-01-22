@@ -79,7 +79,7 @@ In this task, you will continue to be logged into LON-CL1 as Adam Hobbs, and you
 
 11. This initiates the **Office Telemetry Processor settings** wizard. The **Getting Started** window opens, but it may stay minimized on the taskbar. If so, select the icon to maximize the **Getting Started** window. On the **Getting Started** window, select **Next.**
 
-12. On the **Database Settings** page, select the **SQL Server** menu, select **(local)\TELEDASH** in the SQL Server menu, and then select **Connect**. 
+12. On the **Database Settings** page, select the **SQL Server** menu, select **(local)** in the SQL Server menu, and then select **Connect**. 
 
 13. In the **SQL database** box, type **Dashboard**, and then select **Create**. 
 
