@@ -168,7 +168,7 @@ Now that Holly Spencer has built her first Power App and has used it to successf
 
 3. In **Power Apps Studio**, the navigation pane on the left side of the screen shows the **Tree view** for the screens contained in the application. There are two menu tabs in this Tree view – **Screens** and **Components**. The **Screens** tab is underlined, indicating that it’s the tab currently being displayed (it is displayed by default). Select the **X** that appears to the right of **Tree View** to close this pane.
 
-4. By closing the Tree View pane, you only see a ribbon on the right side of the screen with five icons. Hover your mouse over each icon to see what they are called.   
+4. By closing the Tree View pane, you only see a ribbon on the left side of the screen with five icons. Hover your mouse over each icon to see what they are called.   
 ‎  
 ‎Select the first icon, the three horizontal lines, to expand the pane to show the names of the remaining four icons. If you select this same icon again, the pane contracts and only shows the icons. 
 
