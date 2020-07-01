@@ -197,7 +197,7 @@
 <li>Select the <strong>File Explorer</strong> icon on the taskbar to return to the <strong>Documents</strong> folder that you opened in the prior task. Double-click on the <strong>BackupFile.xlsx</strong> file to open it.</li>
 <li>Review the columns in the table and verify the <strong>Assign to</strong> and <strong>Customer </strong>columns appear. Since you have just verified that this data was captured in your backup file, you can proceed with adding these columns to the <strong>Service Desk Requests</strong> list.</li>
 <li>In your Edge browser, in the <strong>Office 365 home </strong>page, select <strong>SharePoint</strong>.</li>
-<li>A <strong>News from sites</strong> window appears over top of the SharePoint admin center. Close this window. On the <strong>SharePoint admin center</strong>, in the left-hand navigation pane, scroll down and under the <strong>Recent</strong> group, select <strong>IT Services</strong>.</li>
+<li>A <strong>News from sites</strong> window appears over top of the SharePoint Home page. Close this window. On the <strong>SharePoint home page</strong>, in the left-hand navigation pane, scroll down and under the <strong>Recent</strong> group, select <strong>IT Services</strong>.</li>
 <li>On the <strong>IT Services </strong>site, in the left-hand navigation pane, select the <strong>X</strong> above <strong>Microsoft Teams</strong> to hide this banner, and in the <strong>Hide </strong>dialog box, select <strong>Yes </strong>to confirm it. In the left-hand navigation pane, select <strong>Site Contents</strong>, and in <strong>Contents list</strong>, select the <strong>Service Desk Requests</strong> list.</li>
 <li>In the <strong>Service Desk Requests</strong> list, you want to create a new column to display the <strong>Customer</strong> data from the <strong>xlsx</strong> spreadsheet. At the end of the column heading row, select <strong>+Add column.</strong></li>
 <li>In the menu that appears, select the data type for this column, which in this case is <strong>Person</strong>.
@@ -249,7 +249,7 @@
 <li>View Audience: <strong>Create a Public View</strong></li>
 </ul>
 </li>
-<li>In the <strong>Column</strong> section, you must first uncheck all the columns currently selected. Then you MUST select the following columns <strong>in the order they appear below</strong>, which is in ascending <strong>Position from left</strong> sequence. If you select them as you progress from top to bottom in the list on the page, the system will automatically adjust the <strong>Position from left</strong> values to different values:
+<li>In the <strong>Column</strong> section, you must first uncheck all the columns currently selected. Then you MUST select the following columns <strong>in the order they appear below</strong>, which is in ascending <strong>Position from left</strong> sequence. If you select them as you progress from top to bottom in the list on the page, the system will automatically adjust the <strong>Position from left</strong> values to different values (if the value of <strong>Position from left</strong> is not automatically changed, change it in the pop-up menu):
 <ul>
 <li><strong>Assign To</strong> &ndash; Position from left: <strong>1</strong></li>
 <li><strong>Customer</strong> &ndash; Position from left: <strong>2</strong></li>
@@ -292,7 +292,7 @@
 <li>View Audience: <strong>Create a Public View</strong></li>
 </ul>
 </li>
-<li>In the <strong>Column</strong> section, you must first uncheck all the columns currently selected. Then you MUST select the following columns <strong>in the order they appear below</strong>, which is in ascending <strong>Position from left</strong> sequence. If you select them as you progress from top to bottom in the list on the page, the system will automatically adjust the <strong>Position from left</strong> values to different values:
+<li>In the <strong>Column</strong> section, you must first uncheck all the columns currently selected. Then you MUST select the following columns <strong>in the order they appear below</strong>, which is in ascending <strong>Position from left</strong> sequence. If you select them as you progress from top to bottom in the list on the page, the system will automatically adjust the <strong>Position from left</strong> values to different values (if the value of <strong>Position from left</strong> is not automatically changed, change it in the pop-up menu):
 <ul>
 <li><strong>Assign To</strong> &ndash; Position from left: <strong>1</strong></li>
 <li><strong>Customer</strong> &ndash; Position from left: <strong>2</strong></li>
@@ -335,7 +335,7 @@
 <li>View Audience: <strong>Create a Public View</strong></li>
 </ul>
 </li>
-<li>In the <strong>Column</strong> section, you must first uncheck all the columns currently selected. Then you MUST select the following columns <strong>in the order they appear below</strong>, which is in ascending <strong>Position from left</strong> sequence. If you select them as you progress from top to bottom in the list on the page, the system will automatically adjust the <strong>Position from left</strong> values to different values:
+<li>In the <strong>Column</strong> section, you must first uncheck all the columns currently selected. Then you MUST select the following columns <strong>in the order they appear below</strong>, which is in ascending <strong>Position from left</strong> sequence. If you select them as you progress from top to bottom in the list on the page, the system will automatically adjust the <strong>Position from left</strong> values to different values (if the value of <strong>Position from left</strong> is not automatically changed, change it in the pop-up menu):
 <ul>
 <li><strong>Assign To</strong> &ndash; Position from left: <strong>1</strong></li>
 <li><strong>Customer</strong> &ndash; Position from left: <strong>2</strong></li>
@@ -373,7 +373,7 @@
 <li>View Audience: <strong>Create a Public View</strong></li>
 </ul>
 </li>
-<li>In the <strong>Column</strong> section, you must first uncheck all the columns currently selected. Then you MUST select the following columns <strong>in the order they appear below</strong>, which is in ascending <strong>Position from left</strong> sequence. If you select them as you progress from top to bottom in the list on the page, the system will automatically adjust the <strong>Position from left</strong> values to different values:
+<li>In the <strong>Column</strong> section, you must first uncheck all the columns currently selected. Then you MUST select the following columns <strong>in the order they appear below</strong>, which is in ascending <strong>Position from left</strong> sequence. If you select them as you progress from top to bottom in the list on the page, the system will automatically adjust the <strong>Position from left</strong> values to different values (if the value of <strong>Position from left</strong> is not automatically changed, change it in the pop-up menu):
 <ul>
 <li><strong>Customer</strong> &ndash; Position from left: <strong>1</strong></li>
 <li><strong>Assign To</strong> &ndash; Position from left: <strong>2</strong></li>
