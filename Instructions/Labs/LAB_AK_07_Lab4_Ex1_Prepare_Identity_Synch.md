@@ -195,7 +195,7 @@ Before you can run Azure AD Connect, you must first configure several settings t
 
 17. In Holly Spencer’s properties window, the **Account** tab is displayed by default. Under the **Username** section, select **Manage username**.
 
-18. In the **Manage username** window, select the drop-down arrow in the **domain** field and then select the **XXYYZZa.xxxCustomDomainxxx.xxx** domain (where XXYYZZa is your unique UPN Name provided by your lab hosting provider and xxxCustomDomainxxx.xxx is your lab hosting provider's custom domain name).   <br/>
+18. In the **Manage username** window, click the pencil on Holly's name and select the drop-down arrow in the **domain** field and then select the **XXYYZZa.xxxCustomDomainxxx.xxx** domain (where XXYYZZa is your unique UPN Name provided by your lab hosting provider and xxxCustomDomainxxx.xxx is your lab hosting provider's custom domain name).   <br/>
 
 	‎**Important:** This step will break Holly’s account. You are purposely doing this to introduce a common problem that many organizations face today – they will correctly create the same UPN’s for a user’s on-premises and cloud accounts, but they accidentally (and incorrectly) point each account to a different domain.   <br/>
 	
@@ -203,7 +203,7 @@ Before you can run Azure AD Connect, you must first configure several settings t
 
 	Read the warning that appears at the top of the window and then select **Save changes**. 
 
-19. Since you are signed into Office 365 as Holly, and because you just changed her username, you will be automatically signed out of Office 365 and forced to sign back in. In the **Sign out** tab in your browser, enter the following URL in the address bar: **https://portal.office.com**    
+19. Since you are signed into Office 365 as Holly, and because you just changed her username, you need to signe out of Office 365 and to sign back in. Sign out from Holly's account and in your browser, enter the following URL in the address bar: **https://portal.office.com**    
 
 20. In the **Pick an account** window, you want to log in using Holly’s **Holly@XXYYZZa.xxxCustomDomainxxx.xx** account. Note that her **Holly@M365xZZZZZZ.onmicrosoft.com** account appears in the list, but not her **Holly@XXYYZZa.xxxCustomDomainxxx.xxx** account. Therefore, select **Use another account.** 
 
