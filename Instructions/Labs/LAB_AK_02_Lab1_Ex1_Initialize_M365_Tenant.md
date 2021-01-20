@@ -117,52 +117,32 @@ In your role as Holly Dickson, Adatum’s Enterprise Administrator, you have bee
 
 ### Task 3 – Prepare for Microsoft Azure Active Directory 
 
-Azure Active Directory is needed to perform several configuration steps when installing Microsoft 365. To access Azure Active Directory, you must first prepare for it by performing the following tasks: installing the Microsoft Online Services Sign-In Assistant and installing the Windows Azure Active Directory PowerShell Module.
+Azure Active Directory is needed to perform several configuration steps when installing Microsoft 365. To access Azure Active Directory, you must first prepare for it by performing the following task: installing two Azure Active Directory PowerShell Modules.
 
-- **Install the Microsoft Online Services Sign-In Assistant.** The Microsoft Online Services Sign-In Assistant (MOS SIA) provides end-user sign-in capabilities to Microsoft Online Services, such as Microsoft 365. The MOS SIA installs client components that allow applications, such as Microsoft Outlook and the Windows Azure Active Directory PowerShell Module, to authenticate to Microsoft Online Services. The MOS SIA can also provide an improved sign-in experience, where end-users can access Microsoft Online Services without having to re-enter their credentials. 
+- **Install the Azure Active Directory PowerShell Modules.** To manage users and organization settings in Microsoft 365 through Windows PowerShell, you must first install two Azure Active Directory PowerShell Modules. These can simply be installed through PowerShell itself. These modules allow you to perform many of the Microsoft 365 user and organization administration tasks through PowerShell. They are great for bulk tasks such as password resets, password policies, license management and reporting, and so on.  
 
-- **Install the Windows Azure Active Directory PowerShell Module.** To manage users and organization settings in Microsoft 365 through Windows PowerShell, you must first install the Azure Active Directory PowerShell Module. This can simply be installed through PowerShell itself. This module allows you to perform many of the Microsoft 365 user and organization administration tasks through PowerShell. It’s great for bulk tasks such as password resets, password policies, license management and reporting, and so on.  
+1. You must open **Windows PowerShell**. Select the magnifying glass (Search) icon on the taskbar at the bottom of the screen and type **powershell** in the Search box that appears. In the list of search results, right-click on **Windows PowerShell** (do not select Windows PowerShell ISE) and select **Run as administrator** in the drop-down menu that appears. 
 
-1. On LON-DC1, you must navigate to the **Microsoft Download Center** to download the **Microsoft Online Services Sign-In Assistant for IT Professionals RTW** wizard. <br/>
-
-	To do so, open a new tab in your **Edge** browser session and then enter the following URL in the address bar: **https://aka.ms/AA6zxrs** 
-
-2. On the **Microsoft Download Center** page, scroll down to the **Microsoft Online Services Sign-In Assistant for IT Professionals RTW** section, leave **English** as the selected language and then select the **Download** button. 
-   
-3. In the **Choose the download you want** window, select the **msoidcli_64bit.msi** check box and then select **Next**. 
-
-4. In the notification bar at the bottom of the page that displays the download status of the msoidcli_64bit.msi file, select **Open file** once the download is complete. 
-
-5. If a **Do you want to run this file?** dialog box appears, select **Run**.
-
-6. In the **Microsoft Online Services Sign-in Assistant Setup** wizard, select **I accept the terms in the License Agreement and Privacy Statement** and then select **Install**. 
-
-7. Once the installation is complete, on the **Completed the Microsoft Online Services Sign-in Assistant Setup Wizard** page, select **Finish**. 
-
-8. Close the **Download Microsoft Online Services** tab in your Edge browser. 
-
-9. You must now open **Windows PowerShell**. Select the magnifying glass (Search) icon on the taskbar at the bottom of the screen and type **powershell** in the Search box that appears. In the list of search results, right-click on **Windows PowerShell** (do not select Windows PowerShell ISE) and select **Run as administrator** in the drop-down menu that appears. 
-
-10. Maximize your PowerShell window. In **Windows PowerShell**, at the command prompt type the following command and then press Enter:
+2. Maximize your PowerShell window. In **Windows PowerShell**, at the command prompt type the following command and then press Enter:
 
 		Install-Module MSOnline
 	
 
-11. If you are prompted to install the **NuGet provider,** enter **Y** to select **[Y] Yes**. 
+3. If you are prompted to install the **NuGet provider,** enter **Y** to select **[Y] Yes**. 
 
-12. If you are prompted to confirm whether you want to install the module from an untrusted repository (PSGallery), enter **A** to select **[A] Yes to All.** 
+4. If you are prompted to confirm whether you want to install the module from an untrusted repository (PSGallery), enter **A** to select **[A] Yes to All.** 
 
-13. Once the installation is complete, the screen will return to the Windows PowerShell command prompt. You must then run the following command to install the Azure AD PowerShell module that you just retrieved in the earlier step:
+5. Once the installation is complete, the screen will return to the Windows PowerShell command prompt. You must then run the following command to install the Azure AD PowerShell module that you just retrieved in the earlier step:
 
 		Install-Module AzureADPreview
 	
-14. If you are prompted to confirm whether you want to install the module from an untrusted repository (PSGallery), enter **A** to select **[A] Yes to All.** 
+6. If you are prompted to confirm whether you want to install the module from an untrusted repository (PSGallery), enter **A** to select **[A] Yes to All.** 
 
-15. Once the installation is complete, the screen will return to the Windows PowerShell command prompt. You have now installed the Windows Azure Active Directory PowerShell Module.
+7. Once the installation is complete, the screen will return to the Windows PowerShell command prompt. You have now installed two Azure Active Directory PowerShell Modules.
 
-16. Leave the Windows PowerShell window open but minimize it for now.
+8. Leave the Windows PowerShell window open but minimize it for now.
 
-17. Remain logged into LON-DC1 and keep your Edge browser open.
+9. Remain logged into LON-DC1.
 
 
 ### Task 4 – Prepare for External Access using Microsoft Teams 
