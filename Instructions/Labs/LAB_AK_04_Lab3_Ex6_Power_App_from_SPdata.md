@@ -37,7 +37,7 @@ You can create a Power App through either the Power App portal or through ShareP
 
 1. You should still be logged into LON-DC1 as **ADATUM\Administrator** and password **Pa55w.rd**; if not, then do so now.
 
-2. In Microsoft Edge, the **Power Apps** tab should still be open from the prior exercise; if not, open a new tab in your browser and enter the following URL in the address bar: **https://make.powersapps.com** 
+2. In Microsoft Edge, the **Power Apps** tab should still be open from the prior exercise; if not, open a new tab in your browser and enter the following URL in the address bar: **https://make.powerapps.com** 
 
 3. In the **Power Apps** studio, in the left-hand navigation pane, select **+Create**.
 
