@@ -6,7 +6,7 @@ In this exercise you will be introduced to some troubleshooting tools in Microso
 
 Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself for any potential mail flow problems that may occur within Adatum’s Exchange environment. As part of her pilot project, she has decided to create two test scenarios to analyze some of the troubleshooting options available to her. One email will be sent to an email address with an invalid domain (@alt.none), and another will be sent to an address with an invalid mailbox in a valid domain (@outlook.com). This task guides Holly though a variety of tools that she can use to troubleshoot different mail conflict scenarios. 
 
-1. You should still be logged into LON-DC1 after having completed the prior exercise, and you should still be logged into Microsoft 365 as Holly Dickson.
+1. You should still be logged into LON-CL1 after having completed the prior exercise, and you should still be logged into Microsoft 365 as Holly Dickson.
 
 2. In your **Microsoft Edge** browser, select the **Microsoft Office Home** tab to display the Office 365 Home page, which should still be open (if not, navigate to **https://portal.office.com** and log in as **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and **Pa55w.rd**).
 
@@ -101,7 +101,7 @@ Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself f
 
 Adatum's CTO is concerned with the service health issues that have recently come to light throughout the organization. He has asked Holly to review several of the key service health queries and reports so that she becomes aware of the information that's available to help Adatum monitor its service health.
 
-1. On the LON-DC1 VM, select the **Microsoft 365 admin center** tab within your Edge browser. 
+1. On the LON-CL1 VM, select the **Microsoft 365 admin center** tab within your Edge browser. 
 
 2. In the left-hand navigation pane, you previously selected the **Show all** option in the prior task. Select the **Health** group that displayed when you selected **Show all**, and then select **Service health**. 
 
@@ -146,7 +146,7 @@ Adatum's CTO is concerned with the service health issues that have recently come
 
 If an organization runs into a situation in Microsoft 365 where it needs assistance with a problem, it must submit a service request with the Microsoft Support team. As part of Adatum's pilot project, Holly Dickson and Patti Fernandez (Adatum's Service Support Administrator) have decided to submit a test request that does not require a call back. They are performing this task to become familiar with the service request process.
 
-1. On LON-DC1, in the **Microsoft 365 admin center** tab of your Edge browser, select **Support** in the left-hand navigation pane, and then select **View service requests** to see if there are any outstanding service request tickets. You should verify that no service request tickets appear on the **Service request history** page.
+1. On LON-CL1, in the **Microsoft 365 admin center** tab of your Edge browser, select **Support** in the left-hand navigation pane, and then select **View service requests** to see if there are any outstanding service request tickets. You should verify that no service request tickets appear on the **Service request history** page.
 
 2. In the left-hand navigation bar, under the **Support** group, select **New service request**.
 
@@ -162,7 +162,7 @@ If an organization runs into a situation in Microsoft 365 where it needs assista
 	
 7. Select the **X** in the upper right-hand corner of the page to close the **Contact support** window.
 	
-8. Leave LON-DC1 and your Edge browser open for the next lab exercise.  
+8. Leave LON-CL1 and your Edge browser open for the next lab exercise.  
 
 
 # Proceed to Lab 2 - Exercise 3
