@@ -15,7 +15,7 @@ In this exercise, you will create a DLP policy that uses two connectors - a Shar
 
 In this task, Holly wants to create a data lost prevention policy for the flows that she plans to create as part of her pilot project. In this task, she will initially add the **SharePoint** connector to **Business** group. She will then see how this affects the flow that she just created. 
 
-1. After having completed the prior exercise in which you created a flow in Power Automate and assigned to it an additional owner, you should still be logged into LON-DC1 as **ADATUM\Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+1. After having completed the prior exercise in which you created a flow in Power Automate and assigned to it an additional owner, you should still be logged into LON-CL1 as **ADATUM\Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
 2. You should still have your Edge browser open to the **Microsoft Power Automate** tab, which should still be displaying the **Flows** window and the **Team flows** tab. If not, then repeat the steps you performed in the prior task to get to this tab (from **Power Automate studio**, select **My flows**, and then select the **Team flows** tab).
 
@@ -82,7 +82,7 @@ Now that Holly has seen what happens when she creates a DLP policy that only inc
 
 In your role as Holly, you will update this DLP policy to include Outlook as an additional connector in the **Business** group. 
 
-1. You should still be logged into LON-DC1 as **ADATUM\Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+1. You should still be logged into LON-CL1 as **ADATUM\Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
 2. You should still have your Edge browser open to the **Edit your flow | Power Automate** tab, which should still be displaying the **Flows** window and the **Shared with me** tab.   
 ‎  
