@@ -27,37 +27,35 @@ You should write down the following information (provided by your instructor) fo
 
 In your role as Holly Dickson, Adatum’s Enterprise Administrator, you have been tasked with setting up the company’s profile for its Microsoft 365 trial tenant. In this task, you will configure the required options for Adatum’s tenant. Since Holly has yet to create a personal Microsoft 365 user account (you will do this in the next lab exercise), Holly will initially sign into Microsoft 365 using the default Microsoft 365 tenant admin account and password that was created by your lab hosting provider. This account will be admin@xxxxxZZZZZZ.onmicrosoft.com (where xxxxxZZZZZZ is the tenant prefix assigned by your lab hosting provider); the display name for this account will be MOD Administrator.
 
-1. When you open your lab hosting provider's Virtual Machine environment, you need to begin with the Domain Controller VM (LON-DC1). If your VM environment opens with one of the other machines, either the local client PC (LON-CL1) or Adatum's on-premises Exchange Server (LON-EX1), then switch to LON-DC1 now.
+1. When you open your lab hosting provider's Virtual Machine environment, you need to begin with the local client VM (LON-CL1). If your VM environment opens with one of the other machines, either the domain conroller (LON-DC1) or Adatum's on-premises Exchange Server (LON-EX1), then switch to LON-CL1 now.
 
-2. On **LON-DC1**, you must select **Ctrl+Alt+Delete** to log in (your instructor will guide you on how to find this option in your VM environment). Log into LON-DC1 as the **Administrator** with the password **Pa55w.rd**. 
+1. On **LON-CL1**, you must select **Ctrl+Alt+Delete** to log in (your instructor will guide you on how to find this option in your VM environment). Log into LON-CL1 as the **Administrator** with the password **Pa55w.rd**.
 
-3.  If you receive a **Windows License** warning message asking you to activate Windows in Settings. Select **Close**. If you also receive a **Networks** warning message asking if you want this PC to be discoverable by other PCs and devices on this network, select **Yes**.
+1. If you receive a **Windows License** warning message asking you to activate Windows in Settings. Select **Close**. If you also receive a **Networks** warning message asking if you want this PC to be discoverable by other PCs and devices on this network, select **Yes**.
 
-4. **Server Manager** will automatically start. Leave it open (it’s used in the next task) but minimize the window for now.
+1. On the taskbar at the bottom of the page, select the **Microsoft Edge** icon. If necessary, maximize your browser window when it opens.
 
-5. On the taskbar at the bottom of the page, select the **Microsoft Edge** icon. If necessary, maximize your browser window when it opens.
+1. In your browser go to the **Microsoft Office Home** page by entering the following URL in the address bar: **https://portal.office.com/** 
 
-6. In your browser go to the **Microsoft Office Home** page by entering the following URL in the address bar: **https://portal.office.com/** 
+1. In the **Sign in** dialog box, copy and paste in the **Tenant Username** provided by your lab hosting provider (**admin@xxxxxZZZZZZ.onmicrosoft.com**, where xxxxxZZZZZZ is the tenant prefix assigned by your lab hosting provider) and then select **Next**.
 
-7. In the **Sign in** dialog box, copy and paste in the **Tenant Username** provided by your lab hosting provider (**admin@xxxxxZZZZZZ.onmicrosoft.com**, where xxxxxZZZZZZ is the tenant prefix assigned by your lab hosting provider) and then select **Next**.
+1. In the **Enter password** dialog box, copy and paste in the unique **Tenant Password** provided by your lab hosting provider and then select **Sign in**.
 
-8. In the **Enter password** dialog box, copy and paste in the unique **Tenant Password** provided by your lab hosting provider and then select **Sign in**.
+1. On the **Stay signed in?** dialog box, select the **Don’t show this again** check box and then select **Yes.** 
 
-9. On the **Stay signed in?** dialog box, select the **Don’t show this again** check box and then select **Yes.** 
+1. If a **Get your work done with Office 365** window appears, then close it now. 
 
-10. If a **Get your work done with Office 365** window appears, then close it now. 
-
-11. On the **Microsoft Office Home** tab, notice the initials **MA** that appear in a circle in the top-right corner of the screen. These are the initials of the **MOD Administrator** account, which is the tenant admin account created by your lab hosting provider that you just signed in as. The other existing Microsoft 365 user accounts that were created by your lab hosting provider have a picture associated with each of their accounts; therefore, in later labs when you sign in as any of these users, the user's picture will be displayed rather than the user's initials. However, when a user such as the MOD Administrator has no picture assigned to it, the user's initials are displayed in place of the picture. <br/>
+1. On the **Microsoft Office Home** tab, notice the initials **MA** that appear in a circle in the top-right corner of the screen. These are the initials of the **MOD Administrator** account, which is the tenant admin account created by your lab hosting provider that you just signed in as. The other existing Microsoft 365 user accounts that were created by your lab hosting provider have a picture associated with each of their accounts; therefore, in later labs when you sign in as any of these users, the user's picture will be displayed rather than the user's initials. However, when a user such as the MOD Administrator has no picture assigned to it, the user's initials are displayed in place of the picture. <br/>
 
 	On the **Microsoft Office Home** tab, in the column of Microsoft 365 app icons that appears on the left side of the screen, select the **Admin** icon, which is the last icon in the list; this opens the **Microsoft 365 admin center** in a new browser tab. 
 
-12. In the **Microsoft 365 admin center**, in the left-hand navigation pane, select **Show all** and then select **Settings**. In the **Settings** group, select **Org settings**. 
+1. In the **Microsoft 365 admin center**, in the left-hand navigation pane, select **Show all** and then select **Settings**. In the **Settings** group, select **Org settings**. 
 
-13. On the **Org settings** page, the **Services** tab at the top of the page is displayed by default. To the right of the **Services** tab is the **Organization profile** tab; select this tab now. 
+1. On the **Org settings** page, the **Services** tab at the top of the page is displayed by default. To the right of the **Services** tab is the **Organization profile** tab; select this tab now. 
 
-14. On the **Org settings** page, in the **Organization profile** tab, select **Organization information** from the list of profile data.
+1. On the **Org settings** page, in the **Organization profile** tab, select **Organization information** from the list of profile data.
 
-15. In the **Organization information** pane that appears, enter the following information:
+1. In the **Organization information** pane that appears, enter the following information:
 
     - Name: **Adatum Corporation** (Note: Contoso is originally displayed as the organization name; this was explained in the Introduction section at the start of this lab. In this step you will change it to Adatum Corporation.)
 
@@ -75,21 +73,21 @@ In your role as Holly Dickson, Adatum’s Enterprise Administrator, you have bee
 
     - Preferred language: **English**
 
-16. Select **Save**.
+1. Select **Save**.
 
-17. At the top of the **Organization information** pane, note the message indicating the changes have been saved. Select the **X** in the upper right-hand corner to close the pane.
+1. At the top of the **Organization information** pane, note the message indicating the changes have been saved. Select the **X** in the upper right-hand corner to close the pane.
 
-18. Back on the **Organization profile** tab, in the list of organization profile data, select **Release preferences**.
+1. Back on the **Organization profile** tab, in the list of organization profile data, select **Release preferences**.
 
-19. In the **Release preferences** pane that appears, select the **Targeted release for select users** option and then select **Save**.<br/>
+1. In the **Release preferences** pane that appears, select the **Targeted release for select users** option and then select **Save**.<br/>
 
     **Note:** One of the benefits of Microsoft 365 is the ability to have the latest features and updates automatically applied to your environment, which can reduce maintenance costs and overhead for an organization and allow early-adopter users to test new features. By setting up your Release preferences, you can control how and when your Microsoft 365 tenant receives these updates. <br/>
 
     **Note:** This **Targeted release for select users** option enables you to create a control group of users who will preview updates so that you can prepare the updates for your entire organization. The **Targeted release for everyone** option is more commonly used in development environments, where you can get updates early for your entire organization. In non-development environments, such as Adatum, targeted release to a select group of users is the more typical preference as it enables an organization to control when it wants to make updates available to everyone once they've been reviewed by the control group.
 
-20. In the **Release preferences** pane, below the list of release options, select **Select users**.
+1. In the **Release preferences** pane, below the list of release options, select **Select users**.
 
-21. In the **Choose users for targeted release** pane that appears, select inside the **Who should receive targeted releases?** field. This displays the list of active users (these are the ten Microsoft 365 user accounts created for your tenant by your lab hosting provider). In this list, select each of the following users (Note: You have to select each user, one at a time; after selecting a user, you must select inside the field again to re-display the list so that you can display the next user): 
+1. In the **Choose users for targeted release** pane that appears, select inside the **Who should receive targeted releases?** field. This displays the list of active users (these are the ten Microsoft 365 user accounts created for your tenant by your lab hosting provider). In this list, select each of the following users (Note: You have to select each user, one at a time; after selecting a user, you must select inside the field again to re-display the list so that you can display the next user): 
 
 	- **Alex Wilber**
 	- **Joni Sherman**
@@ -98,49 +96,52 @@ In your role as Holly Dickson, Adatum’s Enterprise Administrator, you have bee
 
     **Note:** Alex, Joni, and Lynne are administrators who are part of Holly's pilot team. Their accounts will be used throughout the labs for this course.
     
-22. Select **Save**.
+1. Select **Save**.
 
-23. Verify the users you selected appear at the bottom of the **Release preferences** pane, and then select the **X** in the upper-right corner of the **Release preferences** pane to close it. 
+1. Verify the users you selected appear at the bottom of the **Release preferences** pane, and then select the **X** in the upper-right corner of the **Release preferences** pane to close it. 
 
-24. In the list of organization profile data, select **Custom themes**.
+1. In the list of organization profile data, select **Custom themes**.
 
-25. In the **Custom themes** pane, in the **Customize Microsoft 365 for your organization** select **+ Add theme**, then select the **Show the user's display name** check box. <br/>
+1. In the **Custom themes** pane, in the **Customize Microsoft 365 for your organization** select **+ Add theme**, then select the **Show the user's display name** check box. <br/>
 
 	As you scroll through the pane, review the various theme and branding options that are available for you to update. For this lab, you can change any of the options or leave the default values as is. For example, you can add the logo of your company and set the background image as the default for all your users. Along with these options you can change the colors for your navigation pane, text color, icon color, and accent color. Go ahead and explore the different options for your tenant and make any changes that you wish. <br/>
 
 	**Tip:** Some color patterns aesthetically distract users. If you do change any of the colors, it is recommended that you avoid using high contrasting colors together, such as neon colors and high-resolution colors like bright pink and white.
 
-26. Select **Save** when you are done and then close the **Custom themes** pane once your changes have been saved.
+1. Select **Save** when you are done and then close the **Custom themes** pane once your changes have been saved.
 
 
-### Task 3 – Prepare for Microsoft Azure Active Directory 
+### Task 3 – Prepare for Microsoft Azure Active Directory
 
 Azure Active Directory is needed to perform several configuration steps when installing Microsoft 365. To access Azure Active Directory, you must first prepare for it by performing the following tasks: installing installing the Windows Azure Active Directory PowerShell Module.
  
 - **Install the Windows Azure Active Directory PowerShell Module.** To manage users and organization settings in Microsoft 365 through Windows PowerShell, you must first install the Azure Active Directory PowerShell Module. This can simply be installed through PowerShell itself. This module allows you to perform many of the Microsoft 365 user and organization administration tasks through PowerShell. It’s great for bulk tasks such as password resets, password policies, license management and reporting, and so on.  
 
-1. On LON-DC1, You must now open **Windows PowerShell**. Select the magnifying glass (Search) icon on the taskbar at the bottom of the screen and type **powershell** in the Search box that appears. In the list of search results, right-click on **Windows PowerShell** (do not select Windows PowerShell ISE) and select **Run as administrator** in the drop-down menu that appears or while highlightening **PowerShell . 
+1. On LON-CL1, You must now open **Windows PowerShell**. Select the magnifying glass (Search) icon on the taskbar at the bottom of the screen and type **powershell** in the Search box that appears. In the list of search results, right-click on **Windows PowerShell** (do not select Windows PowerShell ISE) and select **Run as administrator** in the drop-down menu that appears or while highlightening **Windows PowerShell**.
 
 2. Maximize your PowerShell window. In **Windows PowerShell**, at the command prompt type the following command and then press Enter:
 
-		Install-Module MSOnline
-	
+    ```powershell
+    Install-Module MSOnline
+    ````
 
-3. If you are prompted to install the **NuGet provider,** enter **Y** to select **[Y] Yes**. 
+3. If you are prompted to install the **NuGet provider**, enter **Y** to select **[Y] Yes**. 
 
 4. If you are prompted to confirm whether you want to install the module from an untrusted repository (PSGallery), enter **A** to select **[A] Yes to All.** 
 
 5. Once the installation is complete, the screen will return to the Windows PowerShell command prompt. You must then run the following command to install the Azure AD PowerShell module that you just retrieved in the earlier step:
 
-		Install-Module AzureADPreview
-	
+    ```powershell
+    Install-Module AzureADPreview
+    ```
+
 6. If you are prompted to confirm whether you want to install the module from an untrusted repository (PSGallery), enter **A** to select **[A] Yes to All.** 
 
 7. Once the installation is complete, the screen will return to the Windows PowerShell command prompt. You have now installed the Windows Azure Active Directory PowerShell Module.
 
 8. Leave the Windows PowerShell window open but minimize it for now.
 
-9. Remain logged into LON-DC1 and keep your Edge browser open.
+9. Remain logged into LON-CL1 and keep your Edge browser open.
 
 
 ### Task 4 – Prepare for External Access using Microsoft Teams 
