@@ -9,7 +9,7 @@ Rather than having Adatum’s Support team use SharePoint to enter and manage ne
 
 Start by familiarizing yourself with the SharePoint list which will serve as the data source for your Power App.
 
-1. You should still be logged into LON-DC1 as **ADATUM\Administrator** and password **Pa55w.rd**; if not, then do so now.
+1. You should still be logged into LON-CL1 as **ADATUM\Administrator** and password **Pa55w.rd**; if not, then do so now.
 
 2. You should still have Microsoft Edge and the **Microsoft 365 admin center** open from the prior lab in which you were logged in as Holly Dickson. If so, proceed to the next step; otherwise, open Microsoft Edge, navigate to **https://portal.office.com/**, log in as **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and **Pa55w.rd**, and then in the **Microsoft 365 Home** page, select the **Admin** icon to open the Microsoft 365 admin center.
 
@@ -35,7 +35,7 @@ Adatum’s IT Consultant has informed Holly that by building a Power App from a 
 
 You can create a Power App through either the Power App portal or through SharePoint. In this task, you will use the Power App portal so that you can become familiar with it. Once you create the Power App, you will add a new record to the Service Desk Requests list using the app, you will edit an existing record using the app, and you will delete a record through the app. In each case, you will verify the corresponding activity occurred in the Service Desk Requests list in the IT Services site in SharePoint. Once you have added, edited, and deleted a record using the Power App, you will save the Power App for Adatum's users to access.
 
-1. You should still be logged into LON-DC1 as **ADATUM\Administrator** and password **Pa55w.rd**; if not, then do so now.
+1. You should still be logged into LON-CL1 as **ADATUM\Administrator** and password **Pa55w.rd**; if not, then do so now.
 
 2. In Microsoft Edge, the **Power Apps** tab should still be open from the prior exercise; if not, open a new tab in your browser and enter the following URL in the address bar: **https://make.powerapps.com** 
 
@@ -163,7 +163,7 @@ You can create a Power App through either the Power App portal or through ShareP
 Now that Holly Dickson has built her first Power App and has used it to successfully manage data in Adatum’s new Service Request Ticketing system, she wants to spend more time familiarizing herself with the contents of Power Apps Studio. In your role as Holly, you will use this task to review Power Apps Studio so that you can learn how the app works and view all the details behind each component.
 
 
-1. You should still be logged into LON-DC1 as **ADATUM\Administrator** and password **Pa55w.rd**; if not, then do so now.
+1. You should still be logged into LON-CL1 as **ADATUM\Administrator** and password **Pa55w.rd**; if not, then do so now.
 
 2. In you Microsoft Edge browser, the **Service Request Ticketing app** tab should still be open from the prior task; if not, repeat the steps from the prior task to create a new app using the **Service Desk Requests** list in SharePoint as your data source. Once you reach the point of previewing the app, then stop and move on to the next step in this task.  
 
@@ -214,7 +214,7 @@ Now that Holly Dickson has built her first Power App and has used it to successf
 The app that Holly created in the earlier task is known as a canvas app. It was developed entirely by PowerApps based on a data source, which in this case was the Service Desk Requests list in SharePoint. One of the benefits of canvas apps is that they are customizable, even if they were not built from a blank canvas. In this section, you will make a small customization to the existing app. 
  
 
-1. You should still be logged into LON-DC1 as **ADATUM\Administrator** and password **Pa55w.rd**; if not, then do so now.
+1. You should still be logged into LON-CL1 as **ADATUM\Administrator** and password **Pa55w.rd**; if not, then do so now.
 
 2. In your Microsoft Edge browser, the **Service Request Ticketing app** tab should still be open from the prior task. If the **Tree view** pane is not open, then open it now. 
 
@@ -254,7 +254,7 @@ In your role as Holly Dickson, you have created the new Service Desk Ticketing s
 However, the IT Consultant has just informed Holly that there’s another way in which she can make the ticketing system available to Adatum’s users. By adding the Power App that she just created to Microsoft Teams, Adatum’s employees can work directly from Teams to access the app and submit their service request tickets. Holly is very excited to test this out. In your role as Holly Dickson, you will perform this task to add the new Power App to Microsoft Teams.
  
 
-1. You should still be logged into LON-DC1 as **ADATUM\Administrator** and password **Pa55w.rd**; if not, then do so now.
+1. You should still be logged into LON-CL1 as **ADATUM\Administrator** and password **Pa55w.rd**; if not, then do so now.
 
 2. You will first verify whether Teams is configured to allow the use of PowerApps.   
 ‎  
@@ -272,8 +272,6 @@ However, the IT Consultant has just informed Holly that there’s another way in
 
 8. You will now enable the Power App for your Service Desk Ticketing system within Teams.   
 ‎  
-‎Switch to **LON-CL1**, where you should already be logged in as the **Administrator** with a password of **Pa55w.rd**.
-
 9. Since Holly created the Service Request Ticketing system app, you must be logged into Teams as Holly to add this Power App to Teams.  
 ‎  
 ‎If the **Teams** app is not open on your taskbar, then enter **Teams** in the **Search** box on the taskbar, select **Microsoft Teams** from the menu, and if prompted, sign in as **holly@xxxxxZZZZZZ.onmicosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider).   
