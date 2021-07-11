@@ -6,7 +6,7 @@ Adatum's CTO has heard a lot about Microsoft SharePoint and is interested in imp
 
 A team site includes a group of related web pages, a default document library for files, lists for data management, and web parts that can be customized to meet your collaboration needs. Holly is excited about the possibility of using team sites in SharePoint Online to improve collaboration between team members when working on specific projects. As part of Adatum's pilot project, Holly wants to create a team site for the IT department so that IT personnel can work on projects and share information from anywhere and on any device. 
 
-1. You should still be logged into LON-DC1 as **Administrator** and password **Pa55w.rd**; if not, then do so now.
+1. You should still be logged into LON-CL1 as **Administrator** and password **Pa55w.rd**; if not, then do so now.
 
 2. You should still have Microsoft Edge and the **Microsoft 365 admin center** open from the prior lab, and you should be logged in as Holly Dickson. If so, proceed to the next step; otherwise, open Edge, navigate to **https://portal.office.com/**, log in as **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and **Pa55w.rd**, and then in the **Microsoft Office Home** page, select **Admin** to open the Microsoft 365 admin center.
 
