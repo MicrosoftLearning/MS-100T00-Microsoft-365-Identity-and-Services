@@ -112,12 +112,12 @@ In this task you will create two types of groups within Exchange Online. The fir
 
 Organizations have typically relied on distribution groups in Exchange to communicate and collaborate with groups of people both inside and outside the company. However, Microsoft 365 Groups offer a more powerful solution for collaboration, and Adatum’s CTO wants to take advantage of this feature. He has asked you to upgrade the company’s Sales Department distribution list to a Microsoft 365 group so that Adatum’s Sales staff can choose the people they want to collaborate with and easily set up a collection of resources for those people to share.
 
-1. In the **Exchange admin center**, you should still be displaying **recipients** from the left-hand navigation pane, and you should still be displaying the **groups** tab.
+1. In the **Exchange admin center**, you should still be displaying **Groups** from the left-hand navigation pane, and you should still be displaying the **Distribution list** tab.
 
-1. Select the circle to the left of the **Sales Department** distribution list and when you see a check mark select the three horizontal ellipses and select **Upgrade distribution group**.
+1. Select the circle to the left of the **Sales Department** distribution list and when you see a check mark select **Upgrade distribution group**. If you do not see the button, select the three horizontal ellipses.
 
 1. A **Ready to upgrade** pop up will appear. Select **Upgrade**.
- This may take up to 5 minutes for it to show up under your **Microsoft 365** tab
+   This may take up to 5 minutes for it to show up under your **Microsoft 365** tab
 
 1. If the **Sales Department** group still displays as a **Distribution list**, then select the **Refresh** icon in the menu bar above the list; the Sales Department group will now display as a **Microsoft 365** group.
 
@@ -131,13 +131,11 @@ Adatum’s CTO wants Holly to implement a standard naming policy throughout the 
 
 1. In the **Edit group naming policy** window that appears, you can select a prefix and a suffix.
 
-   In the **For the prefix, apply the following sequence:** field, select the drop-down arrow and select **Attribute** and to the right in the **select one** field select **Department**.
+   In the **Choose a prefix to add to the beginning of the group names** field, select the drop-down arrow and select **Attribute** and to the right in the **select one** field select **Department**.
 
 1. Select **Add prefix** select the drop-down arrow in the box that has **Attribute** and select **Text**. In the **Add text** field, enter **Group**.
 
-1. Below the **AND** field.
-
-1. Below the **AND  Select a suffix to add to the end of group names**, select the drop-down arrow and select **Attribute**. Select the drop-down arrow, select **City**.
+1. Below the **AND** field, below the **Select a suffix to add to the end of group names**, select the drop-down arrow and select **Attribute**. Select the drop-down arrow, select **City**.
 
 1. Review the **Preview policy** example that is based on the parameters you selected. If any need to be fixed, select the correct values now. When everything looks OK, select the **Save** button at the bottom of the window and close out of the pane.
 
