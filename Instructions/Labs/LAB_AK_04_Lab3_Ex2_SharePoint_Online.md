@@ -46,25 +46,27 @@ A team site includes a group of related web pages, a default document library fo
 
 11. Repeat the previous step for **Nestor Wilke**.
 
-12. Select **Finish**. The **IT Services** site should now appear in the list of **Active sites**.
+12. Select **Finish**. The **IT Services** site should now appear in the list of **Active sites**. Scroll the horizontal scroll bar to the right to view all the information for the IT Services site and all the other sites in the list. 
 
-13. You’re now going to test the process of deleting a team site and then restoring it. In the list of **Active sites**, select the circle to the left of the **IT Services** site name (do not select the IT Services site name, as this will open a properties window for the site).
+13. You’re now going to test the process of deleting a team site and then restoring it. In the list of **Active sites**, hover your mouse to the left of the **IT Services** site name, which should display a circle. Select this circle (do not select the IT Services site name, as this will open a properties window for the site). 
 
-14. In the menu bar at the top of the page, select **Delete**. If not seen click on the three horizontal elipses **...** and in the drop down menu select **Delete**.
+	**Tip:** Selecting the circle to the left of an item in a display view enables you to perform any of the tasks on the menu bar for the selected item. Some tasks require you to select multiple items, in which case the task you perform in the menu bar will be performed on all the selected items. 
+	
+14. In the menu bar at the top of the page, select **Delete**. 
 
-15. In the **Delete Microsoft 365 group** window, select the **Delete the group “IT Services” and all its resources** check box and then select **Delete.** Note that the IT Services site disappears from the **Active sites** list. 
+15. In the **Delete Microsoft 365 group** pop-up window that appears, select the **Delete the group “IT Services” and all its resources** check box and then select **Delete.** Note that the IT Services site disappears from the **Active sites** list. 
 
-16. In the left-hand navigation pane on the **SharePoint admin site**, under **Sites**, select **Deleted sites.** Note how the IT Services site that you just deleted appears in the list of deleted sites. 
+16. In the left-hand navigation pane on the **SharePoint admin site**, under **Sites**, select **Deleted sites.** Note how the IT Services site that you just deleted appears in the list of deleted sites (it may take a minute or so to appear in the list). 
 
 17. In the **Deleted sites** window, select the circle to the left of the **IT Services** site name (do not select the IT Services site name).
 
 18. In the menu bar at the top of the page, select **Restore**.
 
-19. In the **Restore Microsoft 365 group** window, select **Restore**.  Note that the IT Services site disappears from the **Deleted sites** list. 
+19. In the **Restore Microsoft 365 group** pop-up window that appears, select **Restore**.  Note that the IT Services site disappears from the **Deleted sites** list. 
 
 20. In the left-hand navigation pane on the **SharePoint admin site**, under **Sites**, select **Active sites.** The IT Services site should once again appear in the **Active sites** list. 
 
-21. In the **Active sites** list, select the circle to the left of the **IT Services** site name. If you scroll to the right, you will see that the information that you previously entered for this site has been restored.
+21. In the **Active sites** list, select the circle to the left of the **IT Services** site name to highlight this site. Scroll the horizontal scroll bar to the right to verify that all the information for the IT Services site has been restored. 
 
 22. Remain in the SharePoint admin center for the next task.
 

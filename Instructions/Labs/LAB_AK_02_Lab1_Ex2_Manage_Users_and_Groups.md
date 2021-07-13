@@ -102,29 +102,31 @@ In this task, you will create two new groups and then manage the groups by assig
 
 12. In the **Set up the basics** page, enter **Inside Sales** in the **Name** field, and then enter **Collaboration group for the Inside Sales team** in the **Description** field (even if you don't enter a description, you must still select into this field to enable the **Next** button). Select **Next**.
 
-13. In the **Assign Owners** window, select **+ Assign owners**.
+13. You will now assign Allan Deyoung and Patti Fernandez as owners of the Inside Sales group. In the **Assign owners** window, select **+ Assign owners**.
 	
-	You will assign Allan Deyoung and Patti Fernandez as owners by selecting each of the users in the list<br/>
+14. In the list of users that appears, select **Allan Deyoung** and **Patti Fernandez**, and then select **Add (2)**.
 
-	Select **Allan Deyoung** and  **Patti Fernandez** the select **Add (2)**<br/>
-	
-	Select **Next**.
+15. On the **Assign owners** page, Allan and Patti should appear as owners of the group. Select **Next**.
 
-14. In the **Add members** page, select **+ Add members**, select **Diego Siciliani** and **Lynne Robbins**, select **Add (2), then select **Next**.
+16. You will now assign Diego Siciliani and Lynne Robbins as members of the Inside Sales group. In the **Add members** page, select **+ Add members**.
 
-15. In the **Edit settings** page, enter the following information and then select **Next**: <br/>
+17. In the list of users that appears, select **Diego Siciliani** and **Lynne Robbins**, and then select **Add (2)**.
+
+18. On the **Add members** page, Diego and Lynne should appear as members of the group. Select **Next**.
+
+19. In the **Edit settings** page, enter the following information: <br/>
 
 	- Enter **insidesales** in the **Group email address** field
-	- Under the **Privacy** section, select the **Public** option (you must select it even if it's already selected in order to enable the **Next** button at the bottom of the page)
-	- Under the **Add Microsoft Teams to your group** section, verify the **Create a team for this group** check box is selected (select it if need be), then select **Next**.
+	- Even though Public is displayed in the **Privacy** field, select the field to display the two options that are available. Select **Public**.
+	- Under the **Add Microsoft Teams to your group** section, verify the **Create a team for this group** check box is selected (select it if need be), and then select **Next**.
 
-16. In the **Review and finish adding group** page, review the content that you entered. If everything is correct, select **Create group**; otherwise, select **Back** and fix anything that must be corrected (or select **Edit** under the specific area that needs adjustment).
+20. In the **Review and finish adding group** page, review the content that you entered. If anything needs to be fixed, select **Edit** under the specific area that needs adjustment, make any necessary corrections, and then select **Next** to continue back to this page. Once everything is correct, select **Create group**.
 
-17. On the **New group created** window, note the comment at the top of the page that it may take 5 minutes for the new group to appear in the list of groups. </br>
+21. On the **New group created** window, note the comment at the top of the page that it may take 5 minutes for the new group to appear in the list of groups. </br>
 
 	Select **Close**. This returns you to the **Active groups** page. 
 
-18. Repeat steps 10-16 to add a new group with the following information:
+22. Repeat steps 10-21 to add a new group with the following information:
 
 	- Group type: **Security**
 
@@ -134,35 +136,35 @@ In this task, you will create two new groups and then manage the groups by assig
 
 	**Note:** there is no owner, email address, or privacy setting for Security groups
 
-19. If either of the two new groups do not appear in the **Active groups** list, wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional minute or two for both groups to appear.
+23. If either of the two new groups do not appear in the **Active groups** list, wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional minute or two for both groups to appear.
 
 	**Note:** The IT admins group does not have a group email address because it's a Security group. Two additional group types are Mail-enabled Security groups and Distribution groups. Neither of these group types were used in this lab because it can take up to an hour for these two types of groups to appear in the Groups list; whereas Microsoft 365 groups and Security groups usually take just a matter of minutes to appear. 
 
-19. You’re now ready to add members to the groups. In the list of **Active groups**, select the **IT Admins** group. 
+24. You’re now ready to add members to the groups. In the list of **Active groups**, select the **IT Admins** group. 
 
-20. In the **IT Admins** pane that appears, the **General** tab is displayed by default. Select the **Members** tab.
+25. In the **IT Admins** pane that appears, the **General** tab is displayed by default. Select the **Members** tab.
 
-21. The **Members** tab displays sections for the Owners and the Members. Under the **Members** section, you can see that there are zero (0) members. Under this section, select **View all and manage members** to add members to the group. 
+26. The **Members** tab displays sections for the Owners and the Members. Under the **Members** section, you can see that there are zero (0) members. Under this section, select **View all and manage members** to add members to the group. 
 
-22. In the **Members** window that appears, select **+ Add members**. This displays the list of active Microsoft 365 users.
+27. In the **Members** window that appears, select **+ Add members**. This displays the list of active Microsoft 365 users.
 
-23. In the list of users, select the check boxes for **Isaiah Langer**, **Megan Brown** and **Nestor Wilke**, and then at the bottom of the window select **Add (3)**. 
+28. In the list of users, select the check boxes for **Isaiah Langer**, **Megan Brown** and **Nestor Wilke**, and then at the bottom of the window select **Add (3)**. 
 
-24. Verify that the members list has the three users and select the **X** to close the members pane. This displays the list of users for this group. Select **Close** again. 
+29. Verify that the members list has the three users and select the **X** to close the members pane. This displays the list of users for this group. Select **Close** again. 
 
-25. You now want to test the effect of deleting a group. In the list of **Active groups,** select the vertical ellipsis icon (**More actions**) that appears to the right of the **Inside Sales** group. In the drop-down menu that appears, select **Delete group**. 
+30. You now want to test the effect of deleting a group. In the list of **Active groups,** select the vertical ellipsis icon (**More actions**) that appears to the right of the **Inside Sales** group. In the drop-down menu that appears, select **Delete group**. 
 
-26. In the **Delete Inside Sales?** pane that appears, select the **Delete group** button.
+31. In the **Delete Inside Sales?** pane that appears, select the **Delete group** button.
 
-27. Once the group is deleted, select **Close**. 
+32. Once the group is deleted, select **Close**. 
 
-28. This will return you to the list of **Active groups** in the **Microsoft 365 admin center**. The **Inside Sales** group should no longer appear. If the Inside Sales group still displays, wait a couple of minutes and then select the **Refresh** option on the menu bar. The updated **Active groups** list should no longer include the Inside Sales group.
+33. This will return you to the list of **Active groups** in the **Microsoft 365 admin center**. The **Inside Sales** group should no longer appear. If the Inside Sales group still displays, wait a couple of minutes and then select the **Refresh** option on the menu bar. The updated **Active groups** list should no longer include the Inside Sales group.
 
-29. To verify whether deleting this group affected any of its owners or members, select **Users** and then **Active Users** in the left-hand navigation pane. 
+34. To verify whether deleting this group affected any of its owners or members, select **Users** and then **Active Users** in the left-hand navigation pane. 
 
-30. In the **Active users** list verify that the Inside Sales group's two owners (**Allan Deyoung** and **Patti Fernandez**) and the two members (**Diego Siciliani** and **Lynne Robbins**) still appear in the list of users. This verifies that deleting a group does not delete the user accounts that were owners or members of the group.
+35. In the **Active users** list verify that the Inside Sales group's two owners (**Allan Deyoung** and **Patti Fernandez**) and the two members (**Diego Siciliani** and **Lynne Robbins**) still appear in the list of users. This verifies that deleting a group does not delete the user accounts that were owners or members of the group.
 
-31. Remain logged into LON-DC1 with the **Microsoft 365 admin center** open in your browser for the next task.
+36. Remain logged into LON-DC1 with the **Microsoft 365 admin center** open in your browser for the next task.
 
 
 ### Task 3 – Recover Groups using PowerShell 
