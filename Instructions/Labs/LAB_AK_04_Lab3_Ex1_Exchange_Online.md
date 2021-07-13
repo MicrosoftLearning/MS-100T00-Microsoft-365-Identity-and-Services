@@ -239,74 +239,55 @@ Adatum has experienced a recent rash of malware infections. The company's CTO ha
 
 **Note:** In these next three tasks you will configure malware, connection, and spam filters, respectively. These filters were previously configured in the Exchange admin center; however, starting December 1, 2020, that functionality has been moved to the Security and Compliance Center, which is where you will go to create these filters.
 
-1. You should still be logged into LON-CL1 as the **Holly Dickson** with a
-    password of **Pa55w.rd**; however, if the log-in page appears, then log in
-    now.
+1. You should still be logged into LON-CL1 as the **Holly Dickson** with a password of **Pa55w.rd**; however, if the log-in page appears, then log in now.
 
-1. In your **Edge** browser, you should still have a tab open for the
-    **Microsoft 365 admin center**. If so, then select this tab and proceed to
-    the next step; otherwise, navigate to the **Office 365 home** page, log in
-    as your tenant admin account, navigate to the **Microsoft 365 admin
-    center**, and then in the left-hand navigation pane, select **Show all**.
+1. In your **Edge** browser, you should still have a tab open for the **Microsoft 365 admin center**. If so, then select this tab and proceed to the next step; otherwise, navigate to the **Office 365 home** page, log in as your tenant admin account, navigate to the **Microsoft 365 admin center**, and then in the left-hand navigation pane, select **Show all**.
 
-1. In the **Microsoft 365 admin center**, in the left-hand navigation pane
-    under **Admin centers**, select **Security**.
+1. In the **Microsoft 365 admin center**, in the left-hand navigation pane under **Admin centers**, select **Security**.
 
-1. In the **Office 365 Security & Compliance center**, select **Threat Management** in the left-hand
-    navigation pane, and then in the expanded group select **Policy**.
-
-1. In the **Office 365 Security & Compliance center**, select **Threat Management** in the left-hand
-    navigation pane, and then in the expanded group select **Permissions**.
+1. In the **Office 365 Security & Compliance center**, select **Permissions** in the left-hand navigation pane.
 
 1. In the **Home \> permissions** page in the **search** field, type **Org** then select the search glass.
 
 1. On the **Home \> permissions** page list, select the **Organization Management** role.
 
-1. On the **Organization Management**page under the **members**section, select the **Edit** icon.
+1. On the **Organization Management**page under the **members**section, select the **Edit role group** button.
 
-1. On the **editing choose members** page. Select **choose members**.
+1. On the **Choose members** page. Select **Choose members**.
 
-1. On the **choose members** page, Select the **add** icon.
+1. On the **Choose members** page, Select the **Add** icon.
 
-1. On the **choose members** list. Select the **HOlly Dickson** account.Then select the **add** icon.
+1. On the **choose members** list. Select the **Holly Dickson** account.Then select the **Add** icon.
 
-1. On the **choose members** page. Select the**done** icon.
+1. On the **choose members** page. Select the**Done** icon.
 
-1. On the **editing choose members** page, select the **save** icon.
+1. On the **editing choose members** page, select the **Save** icon.
 
      **Note**: the organization management role may take a minute or two to update the microsoft tenant. If the policy doesn't update within a few minutes proceed to the connection filter task.
 
-1. In the **Home \> Policy** page, select the **Anti-Malware** tile under the
-    **Policies** section.
+1.  In the **Office 365 Security & Compliance center**, select **Threat Management** in the left-hand navigation pane, and then in the expanded group select **Policy**.
 
-1. In the **Home \> Policy \> Anti-malware** page, on the menu bar at the top
-    of the window, select **+Create** to add a new malware filter. This
-    initiates the **Create an anti-malware policy** wizard.
+1. In the **Home \> Policy** page, select the **Anti-Malware** tile under the **Policies** section.
 
-1. In the **Name your policy** page, enter **Malware Policy** in the **Name**
-    field.
+1. In the **Home \> Policy \> Anti-malware** page, on the menu bar at the top of the window, select **+Create** to add a new malware filter. This initiates the **Create an anti-malware policy** wizard.
 
-1. In the **Description** field, enter **This policy has been created to
-    protect the messaging environment** and then select **Next**.
+1. In the **Name your policy** page, enter **Malware Policy** in the **Name** field.
 
-1. In the **users and domains**section under domains, enter **onmicrosoft.com** and then select **Next**.
+1. In the **Description** field, enter **This policy has been created to protect the messaging environment** and then select **Next**.
 
-1. On the **protection settins** page, select the checkboxes for **enable the common attachements filter** and **enable zero-hour auto purge for malware (recommended)**.
+1. In the **Users and domains**section under domains, enter **onmicrosoft.com**. select your domain, and then select **Next**.
 
-1. On the **Notifications** section, since this filter will not generate any
-    notifications, do not select any of the notification options, and instead
-    select **Next**.
+1. On the **protection settings** page, select the checkboxes for **enable the common attachements filter** and **enable zero-hour auto purge for malware (recommended)**.
 
-1. On the **reivew** section, confirm that all the information is correct, then select the submit icon.
+1. On the **Notifications** section, since this filter will not generate any notifications, do not select any of the notification options, and instead select **Next**.
+
+1. On the **Review** section, confirm that all the information is correct, then select the submit icon.
 
 1. Congratulations, the New ant-malware policy has been created. Select the done icon.
 
     **Note**: A **Security & Compliance** window will appear with a message that indicates your organization settings need to be updated. Select **Yes** to continue.
 
-1. It may take a minute or so for your organization settings to be updated.
-    Once the update is complete and you are back on the **Home \> Policy \>
-    Anti-malware** page, you can proceed to the next task. Do not close any of
-    the browser tabs.
+1. It may take a minute or so for your organization settings to be updated. Once the update is complete and you are back on the **Home \> Policy \> Anti-malware** page, you can proceed to the next task. Do not close any of the browser tabs.
 
 ### Task 8 – Manage Connection Filters
 
