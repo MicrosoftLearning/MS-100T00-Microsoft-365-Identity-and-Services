@@ -301,7 +301,7 @@ Holly has investigated the situation and has found that in Microsoft 365, you ca
 
 1. The **Home > Policy > Mail filtering** window displays a list of default **Anti-spam settings** that control how messages are handled by Microsoft 365 anti-spam policies.
 
-   Select the drop-down arrow to the left of the **Connection filter policy (Default)** filter. This displays the current settings for this default connection filter. Select the **Edit connection filter policy** link.
+   Click **Connection filter policy (Default)** filter. This displays the current settings for this default connection filter. Select the **Edit connection filter policy** link.
 
 1. In the **Connection filter policy** pane that appears, the **Connection filtering** section displays options regarding which IP Addresses will be allowed to send messages to your environment and what IP addresses will be blocked from sending messages.
 
@@ -323,9 +323,9 @@ As Adatum’s Global Admin, Holly doesn't need to set up or maintain the filteri
 
    Select the **Anti-spam inbound policy (Default)** filter. This displays the current settings for this default spam filter. Take a moment and review the policy settings that are available in this filter, and then select the **Edit actions** link.
 
-1. Make the below changes then select **Save**. ‎**Note:** In this section you will be presented a variety of options on how you would like spam to be handled and what rating will be triggered depending on the severity of the spam.
+   **Note:** In this section you will be presented a variety of options on how you would like spam to be handled and what rating will be triggered depending on the severity of the spam.
 
-1. In the **spam and bulk actions** section, make the following selections:
+1. In the **Actions** page, make the following selections and click **Save**
 
    - Spam: **Move message to Junk Email folder**
 
@@ -337,19 +337,16 @@ As Adatum’s Global Admin, Holly doesn't need to set up or maintain the filteri
 
    - Bulk: **Move message to Junk Email folder**
 
-   - Select the threshold: **5**
-
    - Quarantine (retain spam for days): **10**
 
    - Prepend subject line with this text: enter **WARNING: This message contains potential spam!**
 
    - Enable end-user spam notifications check box, and then change the **Send end-user spam notifications every (days)** value to **5**.
 
-1. Select the drop-down arrow to the right of the **International spam** section.  
+1. Select the **Edit spam threshold and properties link**.
 
-   ‎**Note:** This section allows you to automatically tag messages as spam when they originate from countries/regions that are to be avoided or distrusted, as well as messages written in specific languages.
-
-1. Select the **Edit spam threshold and properties** link.
+   - **Bulk email threshold**, drag the slider to 5.
+   - **Sender ID filtering: hard fail**
 
 1. In the **Mark as spam** section, select the **Contains specific languages** drop down, and select **On**.
 
@@ -359,78 +356,11 @@ As Adatum’s Global Admin, Holly doesn't need to set up or maintain the filteri
 
 1. In the **Mark as spam** section, select the **From these countries** drop down, and select **On**.
 
-1. You should still be logged into LON-CL1 as the **Administrator** with a
-    password of **Pa55w.rd**; however, if the log-in page appears, then log in
-    now.
+   - Type the letters **"ab"** in the **from theses countries** field to display the list of countries starting with the letters “ab” or that include an “ab”. You can enter any letter or letters that you wish.
+   - Select any country/region you want to restrict.
+   - If you want to restrict an additional country, repeat the prior two steps.
 
-1. In your **Edge** browser, you should still be in the **Office 365 Security &
-    Compliance center** (SCC). If so, then proceed to the next step; otherwise,
-    perform the steps from the prior task to navigate to the SCC now.
-
-1. In the **Office 365 Security & Compliance center**, you should still be on
-    the **Anti-spam settings** page after completing the prior task. If so, then
-    proceed to the next step; otherwise, in the left-hand navigation pane,
-    select **Threat Management**, select **Policy,** and then select the
-    **Anti-spam** tile under the **Policies** section.
-
-1. In the **Anti-spam policies** windows in the list of policies, select the
-    **Anti-spam inbound policy(defualt)**.
-
-1. In the **Anti-spam inbound policy (default)** pane, you will be
-    presented a variety of options on how you would like spam to be handled and
-    what rating will be triggered depending on the severity of the spam. The
-    following steps will guide you through these settings so that you can update
-    them per Adatum's requirements.
-
-1. Select the **edit spam threshhold and properties** link, under the **bulk email threashold & spam properties** section. Update the
-    following settings:
-
-1. Select the drop-down arrow to the right of the **Spam properties** section.  
-
-   - set the threshold: **5**
-   - **mark as spam**
-   - empty messages: **Off**
-   - Embedded tags in HTML: **On**
-   - JavaScript or VBScript in HTML :**On**
-   - SPF record hard fail: **On**
-   - Sender ID filtering hard fail: **On**
-   - from these counties:
-      - Type the letters **"ab"** in the **from theses countries** field to display the list of countries starting with the letters “ab” or that include an “ab”. You can enter any letter or letters that you wish.
-      - Select any country/region you want to restrict.
-      - If you want to restrict an additional country, repeat the prior two steps.
-
-1. Once you have selected all the countries/regions that you want to restrict. Select **save**.
-
-1. Select the **edit actions** icon under the **actions** section to update the following
-    settings:
-
-    **Note:** This section determines what happens to emails that have been tagged as spam.
-
-1. Under the **Mark as spam** section, turn **On** the following options:
-
-   - Select the **spam** drop-down arrow and select the **Move message to junk email folder**.
-
-   - Select the **phishing** drop-down arrow and select **quarrantine message**.
-
-   - **Sender ID filtering: hard fail**
-
-   - change **retain spam in quarantine for this many days** to **10** days.
-
-1. Select **Save**.
-
-1. In your Edge browser, close the **Security & Compliance** center tab, but leave all other tabs open.
-
-1. In the list of spam filters, select the drop-down arrow to the left of the
-    **Default spam filter policy (always ON)** filter that you just edited. In
-    the middle column of settings for this filter, note how **End-user spam
-    notifications** are disabled (it status is **Off**).
-    Below this option, select **Configure end-user spam notifications**.
-
-1. In the **Default** window that appears, select the **Enable end-user spam
-    notifications** check box, and then change the **Send end-user spam
-    notifications every (days)** value to **5**.
-
-1. Select **Save**.
+1. Once you have selected all the languages, countries/regions that you want to restrict. Select **Save**.
 
 1. In your Edge browser, close the **Security & Compliance** center tab, but leave all other tabs open.
 
@@ -484,9 +414,9 @@ In this task, you will use the Exchange Admin Center to view the accepted domain
 
 1. However, let’s assume that you set the domain type to **Internal Relay** when you initially created the custom **xxxUPNxxx.xxxCustomDomainxxx.xxx** domain. If you wanted to change it now to **Authoritative,** you would perform the following steps (you can perform the first step to see the window and the corresponding options, but the domain is already set to Authoritative, so you can’t actually make this change):
 
-   - Select this domain in the list, and then select the **pencil (edit)** icon on the menu bar.
+   - Select this domain in the list.
 
-   - In the window for this domain, under **This accepted domain is:** you would select the **Authoritative** option and then select **Save**. However, since you did not make any changes, select **Cancel** to close this window.
+   - In the window for this domain, under **This accepted domain is** you would select the **Authoritative** option and then select **Save**. However, since you did not make any changes, select **Cancel** to close this window.
 
 1. This concludes the exercise on reviewing Exchange Online features. You can close the **Exchange admin center** tab in your Edge browser. This will return you to the **Microsoft 365 admin center** tab, which you will access in the next exercise.
 
